@@ -1,0 +1,28 @@
+.tab_margin {
+    margin-top: 100px;
+}
+
+.tab_img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 330px;
+    max-height: 263px;
+}
+
+.header_tab {
+    margin: 30px auto;
+    width: 268.77px;
+    height: 75px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.text_tab {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+}

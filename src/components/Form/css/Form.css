@@ -1,0 +1,269 @@
+.gform_wrapper.gravity-theme .gfield_label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 0
+}
+
+.gform_wrapper.gravity-theme .ginput_complex label {
+    font-size: 15px;
+    padding-top: 5px
+}
+
+.gform_wrapper.gravity-theme .gfield_required {
+    color: #c02b0a;
+    display: inline-block;
+    font-size: 13.008px;
+    padding-left: .125em
+}
+
+.gform_wrapper.gravity-theme .gfield_required .gfield_required_text {
+    font-style: italic;
+    font-weight: 400
+}
+
+.gform_wrapper.gravity-theme .gform_footer {
+    display: flex
+}
+
+.gform_wrapper.gravity-theme .gform_footer input {
+    align-self: flex-end
+}
+
+.gform_wrapper.gravity-theme .ginput_complex {
+    display: flex;
+    flex-flow: row wrap
+}
+
+.gform_wrapper.gravity-theme .ginput_complex span {
+    flex: 1
+}
+
+.gform_wrapper.gravity-theme .ginput_complex label {
+    display: block
+}
+
+.gform_wrapper.gravity-theme .ginput_complex input {
+    width: 100%
+}
+
+@media (min-width:641px) {
+
+    .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full) {
+        padding-right: 1%
+    }
+
+    .gform_wrapper.gravity-theme .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full)~span:not(.ginput_full) {
+        padding-left: 1%;
+        padding-right: 0
+    }
+}
+
+@media (max-width:640px) {
+    .gform_wrapper.gravity-theme .ginput_complex span {
+        flex: 0 0 100%;
+        margin-bottom: 8px;
+        padding-left: 0
+    }
+}
+
+.gform_wrapper.gravity-theme .gform_footer {
+    margin: 6px 0 0;
+    padding: 16px 0
+}
+
+.gform_wrapper.gravity-theme .gform_footer input {
+    margin-bottom: 8px
+}
+
+.gform_wrapper.gravity-theme .gform_footer input.button:disabled {
+    opacity: .6
+}
+
+.gform_wrapper.gravity-theme input[type=email],
+.gform_wrapper.gravity-theme input[type=text],
+.gform_wrapper.gravity-theme textarea {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8px
+}
+
+* {
+    box-sizing: border-box
+}
+
+input[type=email],
+input[type=submit],
+input[type=text],
+textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: scroll
+}
+
+body {
+    margin: 0;
+    color: #747474;
+    min-width: 320px;
+    -webkit-text-size-adjust: 100%;
+    font: 13px/20px PTSansRegular, Arial, Helvetica, sans-serif
+}
+
+input,
+textarea {
+    font-family: Lato;
+    vertical-align: middle;
+    color: #000
+}
+
+fieldset,
+form {
+    margin: 0;
+    padding: 0;
+    border-style: none
+}
+
+#content:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+h2 {
+    color: #333;
+    margin: 0 0 20px
+}
+
+#content {
+    width: 71.1702128%;
+    float: left;
+    min-height: 1px
+}
+
+#content.full-width {
+    width: 100%
+}
+
+input[type=email],
+input[type=text] {
+    border: 1px solid #d2d2d2;
+    font-size: 13px;
+    color: #747474;
+    padding: 8px 15px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.fusion-row {
+    margin: 0 auto;
+    zoom: 1
+}
+
+.fusion-row:after,
+.fusion-row:before {
+    content: " ";
+    display: table
+}
+
+.fusion-row:after {
+    clear: both
+}
+
+section {
+    display: block
+}
+
+strong {
+    font-weight: 700
+}
+
+input[type=email],
+input[type=text] {
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+
+
+input[type=email]:focus,
+input[type=text]:focus,
+textarea:focus {
+    border-color: #a66d3f
+}
+
+input::-moz-placeholder {
+    color: #aaa9a9
+}
+
+input::-webkit-input-placeholder {
+    color: #aaa9a9
+}
+
+input::-ms-input-placeholder {
+    color: #aaa9a9
+}
+
+input[type=email],
+input[type=text],
+textarea {
+    border-width: 1px 1px 1px 1px;
+    border-color: #d2d2d2;
+    border-radius: 6px
+}
+
+
+
+body {
+    color: #000000
+}
+
+h2 {
+    margin-top: 0em;
+    margin-bottom: 1.1em
+}
+.textarea {
+    width: 100%
+}
+
+
+
+
+
+.btn_link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin: 40px auto 20px auto;
+    background-color: #A30606;
+}
+p {
+    margin: auto;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

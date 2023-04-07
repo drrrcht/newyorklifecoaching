@@ -1,0 +1,31 @@
+.main_header_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.main_header_section .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_header_section .navbar_item {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.main_header_section .navbar_item:first-child {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.main_header_section .navbar_item .navbar_item_link{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #333333;
+}

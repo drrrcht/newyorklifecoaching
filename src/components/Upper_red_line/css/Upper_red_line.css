@@ -1,0 +1,26 @@
+.upper_red_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#A30606;
+}
+
+.upper_red_line p {
+    display: block;
+    margin: auto;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.upper_red_line p span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
