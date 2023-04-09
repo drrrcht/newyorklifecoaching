@@ -1,7 +1,18 @@
 import React from "react";
+import {Card} from "../components/Card/Card";
+import "bootstrap/dist/css/bootstrap-grid.min.css"
 
 export const Blog = () => {
     return(
-        <h2>Blog page</h2>
+        <div className={"wrapper_card_flex container"}>
+            <div className={"row"}>
+                <div className={"col"}><Card/></div>
+                <div className={"col"}><Card/></div>
+                <div className={"col"}><Card/></div>
+                <div className={"col"}><Card/></div>
+                <div className={"col"}><Card/></div>
+                <div className={"col"}><Card/></div>
+            </div>
+        </div>
     );
 }

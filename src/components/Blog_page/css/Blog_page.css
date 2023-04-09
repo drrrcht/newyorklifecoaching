@@ -1,0 +1,33 @@
+.wrapper_main_text {
+    width: 620px;
+}
+.header_main_text {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_text p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-bottom: 20px;
+}
