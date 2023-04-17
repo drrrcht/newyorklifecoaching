@@ -1,0 +1,65 @@
+.wrapper_testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 181px;
+    width: 551px;
+}
+
+img {
+    height: 134px;
+    width: 134px;
+    margin-right: 15px;
+}
+
+.main_text p {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3E3E3E;
+}
+
+.read_more{
+    display: flex;
+    justify-content: right;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #EE3733;
+}
+
+.wrapper_name {
+    display: flex;
+    justify-content: left;
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EE3733;
+    text-align: left;
+}
+
+.rating_mini {
+    display: inline-block;
+    font-size: 0;
+    text-align: left;
+}
+.rating_mini span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating_mini > span:before {
+    content: '★';
+}
+.rating_mini > span.active {
+    color: gold;
+}

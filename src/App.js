@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 import {Main_page} from "./pages/Main_page"
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {About} from "./pages/About";
@@ -22,20 +23,21 @@ import {Blog_page} from "./components/Blog_page/Blog_page";
 function App() {
         return (
             <>
-                <Router>
-                    <Upper_red_line/>
-                    <NaviBar/>
-                    <Routes>
-                        <Route path="/home" element={<Main_page/>}/>
-                        <Route path="/about" element={<About/>}/>
-                        <Route path="/blog" element={<Blog/>}/>
-                        <Route path="/coach" element={<Coach_Trainig/>}/>
-                        <Route path="/home" element={<Main_page/>}/>
-                        <Route path="/services" element={<Services/>}/>
-                        <Route path="/testimonials" element={<Testimonials/>}/>
-                        <Route path="/contact" element={<Contact/>}/>
-                    </Routes>
-                </Router>
+                {/*<Router>*/}
+                {/*    <Upper_red_line/>*/}
+                {/*    <NaviBar/>*/}
+                {/*    <Routes>*/}
+                {/*        <Route path="/home" element={<Main_page/>}/>*/}
+                {/*        <Route path="/about" element={<About/>}/>*/}
+                {/*        <Route path="/blog" element={<Blog/>}/>*/}
+                {/*        <Route path="/coach" element={<Coach_Trainig/>}/>*/}
+                {/*        <Route path="/home" element={<Main_page/>}/>*/}
+                {/*        <Route path="/services" element={<Services/>}/>*/}
+                {/*        <Route path="/testimonials" element={<Testimonials/>}/>*/}
+                {/*        <Route path="/contact" element={<Contact/>}/>*/}
+                {/*    </Routes>*/}
+                {/*</Router>*/}
+                <About/>
             </>
         );
 
