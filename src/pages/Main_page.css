@@ -1,0 +1,24 @@
+.wrapper_text_top h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 64px;
+    color: #000000;
+    text-align: left;
+}
+
+.wrapper_text_top p {
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+}
+
+img {
+    margin-top: 80px;
+}

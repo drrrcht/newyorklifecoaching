@@ -37,7 +37,7 @@ function App() {
                 {/*        <Route path="/contact" element={<Contact/>}/>*/}
                 {/*    </Routes>*/}
                 {/*</Router>*/}
-                <About/>
+                <Main_page/>
             </>
         );
 
