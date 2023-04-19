@@ -44,7 +44,7 @@
     margin-right: 26px;
     width: 150px;
     height: 150px;
-    background-color: #A30606;
+    background-color: var(--navibar-reasons-round);
     border-radius: 100%;
 }
 
@@ -124,7 +124,7 @@
     font-family: 'Lato';
     font-weight: 400;
     font-size: 40px;
-    color: #A30606;
+    color: var(--navibar-wrapper-help-promo-text);
     text-align: center;
     margin: 35px auto 85px auto;
 }
@@ -141,7 +141,7 @@
     font-family: 'Lato';
     font-weight: 400;
     font-size: 40px;
-    color: #A30606;
+    color: var(--navibar-h2-help-promo-text);
     text-align: center;
     margin: 36px auto 85px auto;
 }

@@ -23,21 +23,20 @@ import {Blog_page} from "./components/Blog_page/Blog_page";
 function App() {
         return (
             <>
-                {/*<Router>*/}
-                {/*    <Upper_red_line/>*/}
-                {/*    <NaviBar/>*/}
-                {/*    <Routes>*/}
-                {/*        <Route path="/home" element={<Main_page/>}/>*/}
-                {/*        <Route path="/about" element={<About/>}/>*/}
-                {/*        <Route path="/blog" element={<Blog/>}/>*/}
-                {/*        <Route path="/coach" element={<Coach_Trainig/>}/>*/}
-                {/*        <Route path="/home" element={<Main_page/>}/>*/}
-                {/*        <Route path="/services" element={<Services/>}/>*/}
-                {/*        <Route path="/testimonials" element={<Testimonials/>}/>*/}
-                {/*        <Route path="/contact" element={<Contact/>}/>*/}
-                {/*    </Routes>*/}
-                {/*</Router>*/}
-                <Main_page/>
+                <Router>
+                    <Upper_red_line/>
+                    <NaviBar/>
+                    <Routes>
+                        <Route path="/" element={<Services/>}/>
+                        {/*<Route path="/home" element={<Main_page/>}/>*/}
+                        {/*<Route path="/about" element={<About/>}/>*/}
+                        {/*<Route path="/blog" element={<Blog/>}/>*/}
+                        {/*<Route path="/coach" element={<Coach_Trainig/>}/>*/}
+                        {/*<Route path="/home" element={<Main_page/>}/>*/}
+                        {/*<Route path="/testimonials" element={<Testimonials/>}/>*/}
+                        {/*<Route path="/contact" element={<Contact/>}/>*/}
+                    </Routes>
+                </Router>
             </>
         );
 

@@ -1,5 +1,18 @@
 :root {
-  --color-navibar-item: #333333;
-  --color-red: #A30606;
-  --color-faq: #EBEDED;
+  --blog-page-main-text-p: #000000;
+  --blog-page-header-main-text: #000000;
+  --card-page-header-card: #333333;
+  --card-page-read-more: #333333;
+  --card-page-text-card-p: #000000;
+  --coaching--header-coaching: #285666;
+  --FAQ-btn-link: #285666;
+  --FAQ--faq-header-p: #285666;
+  --FAQ-color: #285666;
+  --navibar-navbar-item-link: #333333;
+  --navibar-reasons-round: #285666;
+  --navibar-wrapper-help-promo-text: #65a0b6;
+  --navibar-h2-help-promo-text: #65a0b6;
+  --color-navibar-item: #bed4cf;
+  --color-red:  #88bfbc;
+  --color-faq: #4d7775;
 }

@@ -1,0 +1,40 @@
+.wrapper_promo_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.1) 100%), center center/cover no-repeat;
+    width: 100%;
+    height: 750px;
+}
+
+.wrapper_promo_img .promo_img img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper_promo_img .wrapper_promo_img_text .main_text_promo_img {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wrapper_promo_img .wrapper_promo_img_text .red_line_promo_img {
+    max-width: 140px;
+    max-height: 5px;
+    border-top: 5px solid #A30606;
+    margin: 0 auto;
+}
+
+.wrapper_promo_img .wrapper_promo_img_text .text_promo_img {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFFFFF;
+}

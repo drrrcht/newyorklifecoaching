@@ -20,6 +20,5 @@ export const Main_page = () => {
             </div>
             <img src={require("./main_page_img/img1.jpg")} alt=""/>
         </div>
-
     );
 }

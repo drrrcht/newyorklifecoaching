@@ -55,7 +55,7 @@
 }
 
 .accordion-color {
-    background: #EBEDED;
+    background: var(--FAQ-color);
 }
 
 .faq_header {
@@ -65,7 +65,7 @@
     margin: 15px auto 60px auto;
     width: 100%;
     height: 90px;
-    background-color: #EBEDED;
+    background-color: var(--FAQ-color);
 }
 
 .faq_header p {
@@ -73,7 +73,7 @@
     font-weight: 400;
     font-size: 48px;
     text-align: center;
-    color: #333333;
+    color: #323111;
 }
 
 .btn_link {
@@ -82,7 +82,7 @@
     width: 100%;
     height: 50px;
     margin: 40px auto 20px auto;
-    background-color: #A30606;
+    background-color: var(--FAQ-btn-link);
 }
 
 p {
@@ -96,8 +96,8 @@ p {
 
 .accordion-button:not(.collapsed) {
     color: black;
-    background-color: #EBEDED;
-    box-shadow: inset 0 -1px 0 #EBEDED;
+    background-color: var(--FAQ-color);
+    box-shadow: inset 0 -1px 0 var(--FAQ-color);
 }
 
 

@@ -1,0 +1,21 @@
+.size_img {
+    height: 400px;
+    margin: 20px auto;
+}
+
+.size_carousel {
+    margin: 0 auto;
+    width: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+    .size_img {
+        margin: 20px auto;
+        height: 200px;
+    }
+
+    .size_carousel {
+        margin: 0 auto;
+        width: 350px;
+    }
+}

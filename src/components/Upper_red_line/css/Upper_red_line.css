@@ -1,8 +1,11 @@
+/*@import "../src/App.css";*/
+
+
 .upper_red_line {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#A30606;
+    background-color:#88bfbc;
 }
 
 .upper_red_line p {
@@ -22,5 +25,5 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
-    color: #FFFFFF;
+    color: #88bfbc;
 }

@@ -45,7 +45,7 @@
     font-weight: 400;
     font-size: 46px;
     line-height: 64px;
-    color: #A30606;
+    color: var(--coaching--header-coaching);
     text-align: center;
     margin-top: 85px;
 }
