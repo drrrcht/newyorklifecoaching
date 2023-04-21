@@ -19,3 +19,55 @@
         width: 350px;
     }
 }
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.header_caruosel {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 64px;
+    color: var(--coaching--header-coaching);
+    text-align: center;
+    margin-top: 85px;
+}

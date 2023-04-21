@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#88bfbc;
+    background-color:#A30606;
 }
 
 .upper_red_line p {
@@ -25,5 +25,5 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
-    color: #88bfbc;
+    color: #FFFFFF;
 }

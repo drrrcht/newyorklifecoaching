@@ -1,9 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
 import "./css/Carousel.css"
+import React from "react";
 
 function CarouselFadeExample() {
     return (
         <div className={"container size_carousel"}>
+            <div className="wrapper_coaching container">
+                <div className="header_caruosel">Carousel</div>
+                <div claass="row">
+            </div>
+            </div>
         <Carousel fade>
             <Carousel.Item>
                 <img

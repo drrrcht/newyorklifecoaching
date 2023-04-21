@@ -144,5 +144,6 @@
     color: var(--navibar-h2-help-promo-text);
     text-align: center;
     margin: 36px auto 85px auto;
+    margin-top: 50px;
 }
 

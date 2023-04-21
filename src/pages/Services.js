@@ -6,6 +6,7 @@ import {FAQ} from "../components/FAQ/FAQ";
 import CarouselFadeExample from "../components/Carousel/Carousel";
 import {Photo} from "../components/Photo/Photo";
 import {Form} from "../components/Form/Form";
+import {Footer} from "../Footer/Footer";
 
 export const Services = () => {
     return(
@@ -14,11 +15,12 @@ export const Services = () => {
             <div className={"container"}>
                 <Reasons/>
                 <Coaching/>
+                <Tab/>
                 <CarouselFadeExample/>
                 <Form/>
-                <Tab/>
                 <FAQ/>
             </div>
+            <Footer/>
         </>
     );
 }

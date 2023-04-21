@@ -1,3 +1,80 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.header_form {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 64px;
+    color: var(--coaching--header-coaching);
+    text-align: center;
+    margin-top: 85px;
+}
+
+.text_form {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.text_form:first-child {
+    margin-top: 35px;
+}
+
+gform-field-label {
+    margin-left: 20px;
+}
+
+.gform-grid-col {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 40%;
+    margin-right: 20px;
+}
+
 .gform_wrapper.gravity-theme .gfield_label {
     display: inline-block;
     font-size: 16px;
@@ -6,7 +83,12 @@
     padding: 0
 }
 
+.ginput_complex {
+    display: flex;
+}
+
 .gform_wrapper.gravity-theme .ginput_complex label {
+    display: flex;
     font-size: 15px;
     padding-top: 5px
 }
@@ -61,6 +143,7 @@
 }
 
 @media (max-width:640px) {
+
     .gform_wrapper.gravity-theme .ginput_complex span {
         flex: 0 0 100%;
         margin-bottom: 8px;
@@ -151,7 +234,8 @@ h2 {
 }
 
 input[type=email],
-input[type=text] {
+input[type=text],
+input[type=number]{
     border: 1px solid #d2d2d2;
     font-size: 13px;
     color: #747474;
@@ -184,7 +268,8 @@ strong {
 }
 
 input[type=email],
-input[type=text] {
+input[type=text],
+input[type=number]{
     height: 50px;
     padding-top: 0;
     padding-bottom: 0
@@ -194,6 +279,7 @@ input[type=text] {
 
 input[type=email]:focus,
 input[type=text]:focus,
+input[type=number]:focus,
 textarea:focus {
     border-color: #a66d3f
 }
@@ -212,6 +298,7 @@ input::-ms-input-placeholder {
 
 input[type=email],
 input[type=text],
+input[type=number],
 textarea {
     border-width: 1px 1px 1px 1px;
     border-color: #d2d2d2;
@@ -253,6 +340,11 @@ p {
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+    input[type=email], input[type=text], input[type=number]{
+        height: 23px;
+    }
+}
 
 
 

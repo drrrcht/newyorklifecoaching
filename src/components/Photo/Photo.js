@@ -9,7 +9,7 @@ export const Photo = () => {
                 <div className="red_line_promo_img">
                 </div>
                 <div className="text_promo_img">Together we identify what matters most to you, what has been limiting
-                    you,and we design a personalized action plan to help you move forward.
+                    you, and we design a personalized action plan to help you move forward.
                 </div>
             </div>
         </div>
