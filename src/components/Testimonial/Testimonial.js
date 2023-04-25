@@ -3,9 +3,9 @@ import "./css/Testimonial.css"
 
 export const Testimonial = () => {
     return (
-        <div className={"wrapper_testimonial"}>
+        <div className={"wrapper_testimonial container"}>
             <div className={"wrapper_img"}>
-                <img src={require("./img/img.png")} alt=""/>
+                <img src={require("./img/img.png")} alt="" className={"testimonial_img"}/>
             </div>
             <div className={"wrapper_main_section"}>
                 <div className={"main_text_testimonial"}>
