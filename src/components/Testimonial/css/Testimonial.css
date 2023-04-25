@@ -1,5 +1,5 @@
 .wrapper_testimonial {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     height: 181px;
@@ -7,18 +7,20 @@
 }
 
 img {
-    height: 134px;
-    width: 134px;
+    height: 90px;
+    width: 90px;
     margin-right: 15px;
+    margin-bottom: 100px;
 }
 
-.main_text p {
+.main_text_testimonial p {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #3E3E3E;
+    width: 330px;
 }
 
 .read_more{

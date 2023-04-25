@@ -1,8 +1,6 @@
 import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 import {Main_page} from "./pages/Main_page"
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {About} from "./pages/About";
@@ -27,14 +25,9 @@ function App() {
                     <Upper_red_line/>
                     <NaviBar/>
                     <Routes>
-                        <Route path="/" element={<Services/>}/>
-                        {/*<Route path="/home" element={<Main_page/>}/>*/}
-                        {/*<Route path="/about" element={<About/>}/>*/}
-                        {/*<Route path="/blog" element={<Blog/>}/>*/}
-                        {/*<Route path="/coach" element={<Coach_Trainig/>}/>*/}
-                        {/*<Route path="/home" element={<Main_page/>}/>*/}
-                        {/*<Route path="/testimonials" element={<Testimonials/>}/>*/}
-                        {/*<Route path="/contact" element={<Contact/>}/>*/}
+                        <Route path={"/home"} element={<Services/>}/>
+                        <Route path={"/about"} element={<About/>}/>
+                        <Route path={"/testimonials"} element={<Testimonials/>}/>
                     </Routes>
                 </Router>
             </>

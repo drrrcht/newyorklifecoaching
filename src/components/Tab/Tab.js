@@ -42,7 +42,7 @@ export const Tab = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="btn_link">
+                    <div className="red-button" style={{margin: "40px auto 20px auto"}}>
                         <p>CLICK HERE TO GET STARTED!</p>
                     </div>
                 </div>

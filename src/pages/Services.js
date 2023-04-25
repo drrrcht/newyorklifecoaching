@@ -6,7 +6,8 @@ import {FAQ} from "../components/FAQ/FAQ";
 import CarouselFadeExample from "../components/Carousel/Carousel";
 import {Photo} from "../components/Photo/Photo";
 import {Form} from "../components/Form/Form";
-import {Footer} from "../Footer/Footer";
+import {Footer} from "../components/Footer/Footer";
+import {Testimonial} from "../components/Testimonial/Testimonial";
 
 export const Services = () => {
     return(
@@ -18,9 +19,10 @@ export const Services = () => {
                 <Tab/>
                 <CarouselFadeExample/>
                 <Form/>
+                <Testimonial/><Testimonial/>
                 <FAQ/>
             </div>
-            <Footer/>
+            {/*<Footer/>*/}
         </>
     );
 }

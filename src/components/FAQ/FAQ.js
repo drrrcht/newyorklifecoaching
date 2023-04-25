@@ -115,7 +115,7 @@ return (
                 </div>
             </div>
         </div>
-        <div className="btn_link">
+        <div className="red-button">
             <p>READY TO WORK TOGETHER? CLICK HERE TO GET STARTED.</p>
         </div>
     </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import "./css/Coaching.css"
+import "../../App.css"
 
 export const Coaching = () => {
     return (
         <div className="wrapper_coaching container">
-            <div className="header_coaching">Private Coaching</div>
+            <div className="centered-title">Private Coaching</div>
             <div claass="row">
                 <div className="text_coaching">If you are committed to your personal growth, you are open to new
                     perspectives, and you are ready for things to be different, this is the fastest way to achieve your
