@@ -51,6 +51,9 @@
 }
 
 .text_form {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -235,7 +238,8 @@ h2 {
 
 input[type=email],
 input[type=text],
-input[type=number]{
+input[type=number],
+.textarea{
     border: 1px solid #d2d2d2;
     font-size: 13px;
     color: #747474;
@@ -345,6 +349,51 @@ p {
         height: 23px;
     }
 }
+
+.red {
+    color: #A30606;
+}
+
+.link_form {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link_form:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.img_size {
+    margin: 0 5px;
+    height: 20px;
+    width: 20px;
+}
+
+p {
+    margin: auto;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wrapper_form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 
 

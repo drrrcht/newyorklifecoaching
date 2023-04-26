@@ -1,24 +1,26 @@
 .wrapper_testimonial {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     height: 181px;
     width: 551px;
 }
 
-img {
-    height: 134px;
-    width: 134px;
+.testimonial_img {
+    height: 90px;
+    width: 90px;
     margin-right: 15px;
+    margin-bottom: 100px;
 }
 
-.main_text p {
+.main_text_testimonial p {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #3E3E3E;
+    width: 330px;
 }
 
 .read_more{
@@ -63,3 +65,17 @@ img {
 .rating_mini > span.active {
     color: gold;
 }
+
+@media only screen and (max-width: 600px) {
+    .testimonial_img {
+        height: 50px;
+        width: 50px;
+        margin-right: 15px;
+        margin-bottom: 100px;
+    }
+
+    .wrapper_testimonial {
+        width: 100%;
+    }
+}
+

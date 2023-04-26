@@ -6,7 +6,7 @@ function CarouselFadeExample() {
     return (
         <div className={"container size_carousel"}>
             <div className="wrapper_coaching container">
-                <div className="header_caruosel">Carousel</div>
+                <div className="centered-title">Carousel</div>
                 <div claass="row">
             </div>
             </div>

@@ -4,8 +4,8 @@ import "./css/Footer.css"
 export const Footer = () => {
     return(
         <footer>
-            <div className="footer_main_wrapper">
-                <div className="footer_wrapper_first">
+            <div className="footer_main_wrapper ">
+                <div className="footer_wrapper_first container">
                     <div className="footer_wrapper_item">
                         <div className="footer_logo"><a href="#"><img src="" alt=""/></a></div>
                         <div className="footer_text_item">Our Blog</div>

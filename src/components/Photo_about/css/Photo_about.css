@@ -1,4 +1,4 @@
-.wrapper_promo_img {
+.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,13 +7,7 @@
     height: 750px;
 }
 
-.wrapper_promo_img .promo_img img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.wrapper_promo_img .wrapper_promo_img_text .main_text_promo_img {
+.main_text_promo_about_img {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -23,14 +17,7 @@
     text-align: center;
 }
 
-.wrapper_promo_img .wrapper_promo_img_text .red_line_promo_img {
-    max-width: 140px;
-    max-height: 5px;
-    border-top: 5px solid #A30606;
-    margin: 60px auto 15px auto;
-}
-
-.wrapper_promo_img .wrapper_promo_img_text .text_promo_img {
+.text_promo_img {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -41,4 +28,3 @@
     width: 49%;
     margin: 0 auto;
 }
-

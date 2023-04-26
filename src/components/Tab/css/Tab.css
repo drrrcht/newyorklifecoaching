@@ -2,9 +2,9 @@
     margin-top: 100px;
 }
 
-.tab_img img {
+img.tab_img{
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 330px;
     max-height: 263px;
 }
@@ -25,4 +25,14 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 31px;
+}
+
+.tab-red-btn {
+    margin: 40px auto 20px auto;
+}
+
+@media only screen and (max-width: 600px){
+    .tab-red-btn {
+        width: 90%;
+    }
 }

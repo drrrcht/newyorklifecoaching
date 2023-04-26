@@ -7,13 +7,13 @@ export const Reasons = () => {
             <div className="container">
                 <div className="row">
                     <div className="wrapper_help_promo_text">
-                        <h2>Are you ready to make a quantum leap?</h2>
+                        <h2 className="centered-title">Are you ready to make a quantum leap?</h2>
                         <p>No matter what you want to change in life, the process is the same. I can help you navigate
                             this process. Together we identify what matters most to you, what has been limiting you, and
                             we design a personalized action plan to help you move forward. Most importantly, I keep you
                             accountable for taking aligned action to stay on track.</p>
                     </div>
-                    <h2 className="h2_help_promo_text">I can help you with:</h2>
+                    <h2 className="centered-title" style={{margin:"35px auto 55px auto"}}>I can help you with:</h2>
                     <div className="col-md-6">
                         <div className="reasons_block">
                             <div className="reasons_round">
