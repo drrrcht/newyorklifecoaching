@@ -25,9 +25,10 @@ function App() {
                     <Upper_red_line/>
                     <NaviBar/>
                     <Routes>
-                        <Route path={"/home"} element={<Services/>}/>
+                        <Route path={"/"} element={<Services/>}/>
                         <Route path={"/about"} element={<About/>}/>
                         <Route path={"/testimonials"} element={<Testimonials/>}/>
+                        <Route path={"/blog"} element={<Blog/>}/>
                     </Routes>
                 </Router>
             </>
