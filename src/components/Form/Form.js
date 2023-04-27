@@ -91,7 +91,7 @@ class Form extends Component {
                         </legend>
                         <div className='ginput_complex'>
                             <span className='name_first gform-grid-col'>
-                                <input
+                                <input required
                                     type='text'
                                     name={"first_name"}
                                     placeholder={"First name"}
@@ -101,7 +101,7 @@ class Form extends Component {
                                     <label className='gform-field-label'>First name<span className={"red"}>*</span> (required)</label>
                             </span>
                             <span className='name_last gform-grid-col'>
-                                <input
+                                <input required
                                     type='text'
                                     name={"second_name"}
                                     placeholder={"Second name"}
@@ -117,7 +117,7 @@ class Form extends Component {
                                 Email<span className={"red"}>*</span> (required)
                             </label>
                             <div className='ginput_container'>
-                                <input
+                                <input required
                                     name='input_3'
                                     type='email'
                                     placeholder="E-mail"
@@ -131,7 +131,7 @@ class Form extends Component {
                                 phone number<span className={"red"}>*</span> (required)
                             </label>
                             <div className='ginput_container'>
-                                <input
+                                <input required
                                     name='input_4'
                                     type={"number"}
                                     placeholder={"Phone number"}
@@ -159,12 +159,12 @@ class Form extends Component {
                                 Message<span className={"red"}>*</span> (required)
                             </label>
                             <div className='ginput_container'>
-                                <textarea name='input_4' id='input_2_4' className='textarea medium' aria-required="true"
+                                <textarea required name='input_4' id='input_2_4' className='textarea medium' aria-required="true"
                                           aria-invalid="false" rows='10' cols='50'></textarea>
                             </div>
                         </div>
                     </div>
-                    <buttn type={"submit"} className='red-button' style={{border: "none"}}><p>SUBMIT</p></buttn>
+                    <button type={"submit"} className='red-button' style={{border: "none"}}><p>SUBMIT</p></button>
                 </form>
                 </div>
             </>

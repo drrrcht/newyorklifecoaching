@@ -14,7 +14,7 @@ function NaviBar() {
         <Navbar expand="lg" className="main_header_section">
             <Container className="navbar_wrapper">
                 <Navbar.Brand style={{marginRight: "90px", textDecoration: "none" }}>
-                    <Link to={"/home"} className="navbar_brand">
+                    <Link to={"/"} className="navbar_brand">
                         React-Bootstrap
                     </Link>
                 </Navbar.Brand>
@@ -49,7 +49,7 @@ function NaviBar() {
 
                         <Dropdown>
                             <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary" className="navbar_item" style={{background:"none", border: "none"}}>
-                                <Link to={""} className="navbar_item_link">Blog</Link>
+                                <Link to={"/blog"} className="navbar_item_link">Blog</Link>
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu variant="white">

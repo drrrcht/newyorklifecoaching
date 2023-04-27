@@ -1,10 +1,10 @@
 :root {
   --color-centered-title: #A30606;
-  --blog-page-main-text-p: #A30606;
+  --blog-page-main-text-p: #000000;
   --blog-page-header-main-text: #000000;
   --card-page-header-card: #000000;
   --card-page-read-more: #A30606;
-  --card-page-text-card-p: #A30606;
+  --card-page-text-card-p: #000000;
   --coaching--header-coaching: #000000;
   --FAQ--faq-header-p: #EBEDED;
   --FAQ-color: #EBEDED;
@@ -127,3 +127,8 @@
 /*  text-align: center;*/
 /*  color: #323111;*/
 /*}*/
+
+.wrapper_card_flex {
+  display: flex;
+  justify-content: center;
+}
