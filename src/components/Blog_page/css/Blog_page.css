@@ -1,7 +1,13 @@
-.wrapper_main_text {
-    width: 620px;
+.wrapper__blog-page {
+    display: flex;
+    justify-content: left;
+    background-color: #F6FAFA;
 }
-.header_main_text {
+.wrapper_main_text__blog-page {
+    width: 620px;
+    background-color: #FFFFFF;
+}
+.header_main_text__blog-page {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
@@ -12,12 +18,12 @@
     text-align: center;
 }
 
-.main_text {
+.main_text__blog-page {
     display: flex;
     flex-direction: column;
 }
 
-.main_text p{
+.main_text__blog-page p{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;

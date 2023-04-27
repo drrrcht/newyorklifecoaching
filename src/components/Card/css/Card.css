@@ -6,10 +6,9 @@
 .wrapper_card {
     border-style: solid;
     border-color: #EBEAEA;
-    height: 618px;
-    width: 341.625px;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    height: 550px;
+    width: 340px;
+    margin: 0 auto 40px auto;
 }
 
 
@@ -20,6 +19,7 @@
 .img_card img{
     height: 165px;
     width: 100%;
+    margin: 0;
 }
 
 .header_card {
@@ -34,14 +34,14 @@
 .text_card p {
     font-family: 'Lato';
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 25px;
     color: var(--card-page-text-card-p);
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
-.read_more{
+.read_more-blog{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -52,7 +52,7 @@
     color: var(--card-page-read-more);
 }
 
-.read_more span {
+.read_more-blog span {
     font-family: 'Lato';
     font-weight: 400;
     font-size: 20px;

@@ -13,6 +13,7 @@ import Upper_red_line from "./components/Upper_red_line/Upper_red_line";
 import NaviBar from "./components/NaviBar/NaviBar";
 import {Card} from "../src/components/Card/Card"
 import {Blog_page} from "./components/Blog_page/Blog_page";
+import {Footer} from "./components/Footer/Footer";
 
 
 
@@ -25,10 +26,14 @@ function App() {
                     <Upper_red_line/>
                     <NaviBar/>
                     <Routes>
-                        <Route path={"/home"} element={<Services/>}/>
+                        <Route path={"/"} element={<Services/>}/>
                         <Route path={"/about"} element={<About/>}/>
                         <Route path={"/testimonials"} element={<Testimonials/>}/>
+                        <Route path={"/blog"} element={<Blog/>}/>
+                        <Route path={"/blog/blog_page"} element={<Blog_page/>}/>
+                        <Route path={"/contact"} element={<Contact/>}/>
                     </Routes>
+                    <Footer/>
                 </Router>
             </>
         );
