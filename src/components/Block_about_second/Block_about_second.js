@@ -4,7 +4,7 @@ import "../../App.css";
 export const Block_about_second = () => {
     return (
         <div className={"wrapper_section_about_img_left row"}>
-            <div className={"wrapper_img2 col"}>
+            <div className={"wrapper_img2-about col"}>
                 <img src={require("../../pages/about_img/img2.png")} alt=""/>
             </div>
             <div className={"wrapper_text_section_about col"}>

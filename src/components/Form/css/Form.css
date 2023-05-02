@@ -74,8 +74,7 @@ gform-field-label {
 .gform-grid-col {
     display: flex;
     flex-direction: column-reverse;
-    width: 40%;
-    margin-right: 20px;
+    flex: 1;
 }
 
 .gform_wrapper.gravity-theme .gfield_label {
@@ -88,6 +87,7 @@ gform-field-label {
 
 .ginput_complex {
     display: flex;
+    gap: 20px;
 }
 
 .gform_wrapper.gravity-theme .ginput_complex label {
@@ -274,7 +274,7 @@ strong {
 input[type=email],
 input[type=text],
 input[type=number]{
-    height: 50px;
+    height: 40px;
     padding-top: 0;
     padding-bottom: 0
 }
