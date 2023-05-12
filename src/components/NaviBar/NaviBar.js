@@ -41,10 +41,6 @@ function NaviBar() {
                                 Another action
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
-                                Separated link
-                            </NavDropdown.Item>
                         </NavDropdown>
 
                         <Dropdown>
@@ -58,8 +54,6 @@ function NaviBar() {
                                 </Dropdown.Item>
                                 <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                                <Dropdown.Divider />
-                                <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
 

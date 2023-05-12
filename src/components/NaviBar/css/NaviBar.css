@@ -49,3 +49,17 @@
   text-decoration: none;
   color:#333333;
 }
+
+.dropdown-menu {
+  border: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--navibar-navbar-item-link);
+}
+
+.dropdown-item:hover {
+  color: #FFFFFF;
+  background-color: #A30606;
+}

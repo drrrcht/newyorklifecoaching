@@ -11,7 +11,7 @@ export const Block_about_first = () => {
                 <p>Each individual has different aspirations and faces different challenges. Some clients require more structure, some seek more guidance, and some simply need more accountability. A key focus of Annie’s work is to adapt her approach to each individual.</p>
                 <p>Annie provides an oasis for busy New Yorkers and world citizens to pause, to reflect, and tune in to their own greatness, so that they can regroup for their next leap forward.</p>
             </div>
-            <div className={"wrapper_img1 col"}>
+            <div className={"wrapper_img1-about col"}>
                 <img src={require("../../pages/about_img/img1.png")} alt=""/>
             </div>
         </div>
