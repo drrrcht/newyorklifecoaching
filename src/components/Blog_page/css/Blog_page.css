@@ -1,3 +1,7 @@
+юwrapper_main_text__blog-page {
+    width: 80%;
+    background-color: #333333;
+}
 .wrapper__blog-page {
     display: flex;
     justify-content: left;
@@ -8,6 +12,7 @@
     background-color: #FFFFFF;
 }
 .header_main_text__blog-page {
+    text-align: left;
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
@@ -15,7 +20,6 @@
     line-height: 31px;
     color: var(--blog-page-header-main-text);
     margin-bottom: 70px;
-    text-align: center;
 }
 
 .main_text__blog-page {
