@@ -5,14 +5,19 @@ export const Block_about_first = () => {
     return (
         <div className={"wrapper_section_about_img_right row"}>
             <div className={"wrapper_text_section_about col"}>
-                <h2 style={{marginTop: "80px"}}>Philosophy</h2>
-                <p>Annie Lin’s coaching philosophy was inspired by Michelangelo’s reference to his sculpting approach: “I saw the angel in the marble and carved until I set him free.” Annie perceives her clients’ unique brilliance; she challenges and encourages them to rise above their self-imposed limitations.</p>
-                <p>In an effort to help clients make a step change in life, Annie has drawn on the wisdom of both Eastern and Western philosophy. She created a method that relies on all the four Aspects of Being – physical, emotional, cognitive, and spiritual. Clients benefit from a process of self-discovery, facilitated by strategies that leverage the unique connections between each of those four Aspects.</p>
-                <p>Each individual has different aspirations and faces different challenges. Some clients require more structure, some seek more guidance, and some simply need more accountability. A key focus of Annie’s work is to adapt her approach to each individual.</p>
-                <p>Annie provides an oasis for busy New Yorkers and world citizens to pause, to reflect, and tune in to their own greatness, so that they can regroup for their next leap forward.</p>
+                <h2 style={{margin: "80px 10px 10px 10px"}}>Кому стоит обратиться</h2>
+                <p style={{ fontWeight: "bold" }}>Вам ко мне, если жизнь стала в тягость, и не дают покоя вопросы: </p>
+                <ul>
+                    <li><p>у меня вроде все есть, почему же мне все равно плохо?</p></li>
+                    <li><p>для чего я пришел в этот мир и в чем моя ценность?</p></li>
+                    <li><p>какие у меня есть таланты? </p></li>
+                    <li><p>какую работу выбрать, если на старой больше невыносимо?</p></li>
+                    <li><p>что сделать, чтобы, наконец, начать жить так, как мечтается? </p></li>
+                </ul>
+                <p>Я не только обладаю большим арсеналом инструментов изменения подсознания и мышления, но и мастерски их сочетаю. Из этого родились авторские техники, которые использую в консультациях. Поэтому со мной внутренние и внешние трансформации происходят естественно и комфортно.</p>
             </div>
             <div className={"wrapper_img1-about col"}>
-                <img src={require("../../pages/about_img/img1.png")} alt=""/>
+                <img src={require("../../pages/about_img/IMG_8578.JPG")} alt=""/>
             </div>
         </div>
     );

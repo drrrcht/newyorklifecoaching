@@ -35,8 +35,13 @@
   color: #A30606;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 .dropdown-toggle::after {
   color: #333333;
+  margin-bottom: -2px;
 }
 
 .navbar_brand {
@@ -62,4 +67,8 @@
 .dropdown-item:hover {
   color: #FFFFFF;
   background-color: #A30606;
+}
+
+button {
+  box-shadow: none!important;
 }

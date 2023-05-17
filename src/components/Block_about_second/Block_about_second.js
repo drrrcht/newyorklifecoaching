@@ -5,12 +5,20 @@ export const Block_about_second = () => {
     return (
         <div className={"wrapper_section_about_img_left row"}>
             <div className={"wrapper_img2-about col"}>
-                <img src={require("../../pages/about_img/img2.png")} alt=""/>
+                <img src={require("../../pages/about_img/IMG_8579.jpg")} alt=""/>
             </div>
             <div className={"wrapper_text_section_about col"}>
-                <h2>Clients</h2>
-                <p>Annie has spent over 10,000 hours coaching clients from around the world, helping them live happier and more meaningful life, both personally and professionally. Clients hail from various walks of life – entrepreneurs, creative professionals, corporate employees, attorneys – and all ages, from 20-something to 75 years old.</p>
-                <p>Many of her clients are introverted individuals in quest of fulfilling relationships and careers. Annie specializes in guiding them to achieve results in a most authentic way.</p>
+                <h2>Что вы получаете? </h2>
+                <ul>
+                    <li><p>понимание своего жизненного пути.</p></li>
+                    <li><p>позволение без чувства вины выбирать то, что желаете вы, а не другие. </p></li>
+                    <li><p>уверенность в себе, прилив сил, ресурсы и возможности.</p></li>
+                    <li><p>двигаться к своим целям становится легко.</p></li>
+                    <li><p>желаемое приходит в вашу жизнь без напряжения и надрыва.</p></li>
+                </ul>
+                <p>Более 7 лет я изучаю и практикую методы психологии, коучинга, изменения подсознания и смены мышления.</p>
+                <p>Я сертифицированный энергопрактик международных методик Access Consciousness и ThetaHealing, коуч, таролог, специалист метода диагностики и коррекции «Матрица судьбы».</p>
+                <p>Если вы выбираете изменить свою жизнь, записывайтесь на консультацию. </p>
             </div>
         </div>
     );
