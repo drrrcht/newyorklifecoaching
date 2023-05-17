@@ -153,6 +153,7 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 40px;
+  gap: 10px;
 }
 
 .catalog_item_blog {

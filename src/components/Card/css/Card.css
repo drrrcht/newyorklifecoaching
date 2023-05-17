@@ -6,9 +6,25 @@
 .wrapper_card {
     border-style: solid;
     border-color: #EBEAEA;
-    height: 550px;
-    width: 340px;
     margin: 0 auto 40px auto;
+}
+
+@media only screen and (max-width: 430px){
+    .wrapper_card {
+        border-style: solid;
+        border-color: #EBEAEA;
+        width: 340px;
+        margin: 0 auto 40px auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper_card {
+        border-style: solid;
+        border-color: #EBEAEA;
+        width: 300px;
+        margin: 0 auto 40px auto;
+    }
 }
 
 
