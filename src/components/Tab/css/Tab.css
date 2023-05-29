@@ -5,14 +5,12 @@
 img.tab_img{
     display: block;
     margin: 20px auto;
-    max-width: 330px;
-    max-height: 263px;
+    width: 330px;
+    height: 263px;
 }
 
 .header_tab {
-    margin: 30px auto;
-    width: 268.77px;
-    height: 75px;
+    height: 85px;
     font-family: 'Lato';
     font-weight: 400;
     font-size: 32px;

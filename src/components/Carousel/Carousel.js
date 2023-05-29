@@ -5,7 +5,7 @@ import "./css/Carousel.css"
 
 function CarouselFadeExample() {
     return (
-        <div className={"container size_carousel"}>
+        <div className="carousel_size_carousel">
             <div className="wrapper_coaching container">
                 <div className="centered-title">Сертификаты</div>
                 <div claass="row">

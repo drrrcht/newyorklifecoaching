@@ -7,6 +7,9 @@
     border-style: solid;
     border-color: #EBEAEA;
     margin: 0 auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 430px){
@@ -27,15 +30,19 @@
     }
 }
 
-
 .wrapper_text_card {
+    position: relative;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .img_card img{
     height: 165px;
     width: 100%;
     margin: 0;
+    object-fit: cover;
 }
 
 .header_card {
@@ -45,19 +52,24 @@
     line-height: 39px;
     color: var(--card-page-header-card);
     margin-bottom: 20px;
+    overflow-wrap: break-word;
 }
 
 .text_card p {
     font-family: 'Lato';
     font-weight: 400;
+    
+    overflow-wrap: break-word;
     font-size: 18px;
     line-height: 25px;
     color: var(--card-page-text-card-p);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: left;
 }
 
 .read_more-blog{
+    position: absolute;
+    bottom: 15px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;

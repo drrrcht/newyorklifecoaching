@@ -52,7 +52,8 @@
 
 .text_form {
     display: flex;
-    align-items: baseline;
+    gap: 5px;
+    align-items: center;
     justify-content: space-evenly;
     font-family: 'Lato';
     font-style: normal;
@@ -60,15 +61,15 @@
     font-size: 22px;
     line-height: 31px;
     color: #000000;
+}
+
+.text_form svg, .text_form img {
+    width: 30px;
+    height: 30px;
+}
+
+.gfield {
     margin-bottom: 20px;
-}
-
-.text_form:first-child {
-    margin-top: 35px;
-}
-
-gform-field-label {
-    margin-left: 20px;
 }
 
 .gform-grid-col {
@@ -77,30 +78,11 @@ gform-field-label {
     flex: 1;
 }
 
-.gform_wrapper.gravity-theme .gfield_label {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    padding: 0
-}
 
 .ginput_complex {
     display: flex;
     gap: 20px;
-}
-
-.gform_wrapper.gravity-theme .ginput_complex label {
-    display: flex;
-    font-size: 15px;
-    padding-top: 5px
-}
-
-.gform_wrapper.gravity-theme .gfield_required {
-    color: #c02b0a;
-    display: inline-block;
-    font-size: 13.008px;
-    padding-left: .125em
+    margin-bottom: 20px;
 }
 
 .gform_wrapper.gravity-theme .gfield_required .gfield_required_text {
@@ -123,10 +105,6 @@ gform-field-label {
 
 .gform_wrapper.gravity-theme .ginput_complex span {
     flex: 1
-}
-
-.gform_wrapper.gravity-theme .ginput_complex label {
-    display: block
 }
 
 .gform_wrapper.gravity-theme .ginput_complex input {
@@ -323,10 +301,6 @@ h2 {
     width: 100%
 }
 
-
-
-
-
 .btn_link_form {
     display: flex;
     justify-content: center;
@@ -335,7 +309,7 @@ h2 {
     margin: 40px auto 20px auto;
     background-color: #A30606;
 }
-p {
+.red-button p {
     margin: auto;
     font-family: 'Raleway';
     font-weight: 400;
@@ -364,28 +338,29 @@ p {
     color: #000000;
 }
 
-.img_size {
-    margin: 0 5px;
-    height: 20px;
-    width: 20px;
-}
-
-p {
-    margin: auto;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
 .wrapper_form {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+    .text_form svg, .text_form img {
+        width: 20px;
+        height: 20px;
+    }
+    .link_form {
+        font-size: 17px;
+    }
+    .ginput_complex {
+        flex-direction: column;
+    }
+    .wrapper_form {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
     .wrapper_form {
         display: flex;
         flex-direction: column;

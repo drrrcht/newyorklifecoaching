@@ -1,5 +1,4 @@
 import React from "react";
-// import "./About.css";
 import "bootstrap/dist/css/bootstrap-reboot.min.css"
 import "bootstrap/dist/css/bootstrap-grid.min.css"
 import {Block_about_first} from "../components/Block_about_first/Block_about_first";

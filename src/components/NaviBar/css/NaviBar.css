@@ -55,6 +55,11 @@
   color:#333333;
 }
 
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
 .dropdown-menu {
   border: none;
   font-family: 'Raleway';
@@ -71,4 +76,14 @@
 
 button {
   box-shadow: none!important;
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

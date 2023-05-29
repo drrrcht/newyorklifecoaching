@@ -5,18 +5,11 @@ import "../../App.css"
 export const Coaching = () => {
     return (
         <div className="wrapper_coaching container">
-            <div className="centered-title">Private Coaching</div>
+            <div className="centered-title">Услуги</div>
             <div claass="row">
-                <div className="text_coaching">If you are committed to your personal growth, you are open to new
-                    perspectives, and you are ready for things to be different, this is the fastest way to achieve your
-                    desired results.
-                </div>
-                <div className="text_coaching">I will not enforce a formula on you because everyone has a unique path.
-                    Each coaching session is different. I combine ancient Eastern wisdom with cutting-edge coaching and
-                    healing technologies to help you align yourself with your truth and highest path.
-                </div>
-                <div className="text_coaching">New clients usually start with the 3-month package. Since March 2021, all
-                    coaching sessions are conducted via Zoom video calls.
+                <div className="text_coaching">
+                    В своих консультациях я применяю авторские техники, проверенные на себе, моих близких и клиентах. 
+                    Трехлетняя практика показала, что мой уникальный подход помогает достигать результатов быстро и эффективно. 
                 </div>
             </div>
         </div>

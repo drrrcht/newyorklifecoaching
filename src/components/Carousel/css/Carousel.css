@@ -3,9 +3,8 @@
     margin: 20px auto;
 }
 
-.size_carousel {
+.carousel_size_carousel {
     margin: 0 auto;
-    width: 800px;
 }
 
 .carousel-control-prev-icon, 
@@ -25,7 +24,7 @@
     }
 }
 
-.container {
+.carousel_size_carousel {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -34,26 +33,26 @@
 }
 
 @media (min-width:576px) {
-    .container {
+    .carousel_size_carousel {
         max-width: 540px
     }
 }
 
 @media (min-width:768px) {
-    .container {
+    .carousel_size_carousel {
         max-width: 720px
     }
 }
 
 @media (min-width:992px) {
-    .container {
+    .carousel_size_carousel {
         max-width: 960px
     }
 }
 
 @media (min-width:1200px) {
-    .container {
-        max-width: 1140px
+    .carousel_size_carousel {
+        max-width: 1000px
     }
 }
 

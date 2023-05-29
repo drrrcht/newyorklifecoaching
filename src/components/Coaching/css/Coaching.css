@@ -51,15 +51,11 @@
 }
 
 .text_coaching {
+    text-align: center;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 31px;
     color: #000000;
-    margin-bottom: 20px;
-}
-
-.text_coaching:first-child {
-    margin-top: 35px;
 }
